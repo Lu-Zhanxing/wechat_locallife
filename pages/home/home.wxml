@@ -1,0 +1,20 @@
+<view>
+  <!-- 轮播图 -->
+  <swiper	indicator-dots circular>
+    <swiper-item wx:for="{{swiperList}}" wx:key="id">
+    <image src="{{item.image}}"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 九宫格 -->
+  <view class="nineContainer">
+    <View wx:for="{{nineList}}" wx:key="id">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.name}}</text>
+    </View>
+  </view>
+  <!-- 图片 -->
+  <view class="imgContainer">
+    <image src="/static/images/link-01.png" mode="widthFix"></image>
+    <image src="/static/images/link-02.png" mode="widthFix"></image>
+  </view>
+</view>

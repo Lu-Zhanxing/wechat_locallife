@@ -1,0 +1,42 @@
+/* pages/home/home.wxss */
+swiper{
+  height: 350rpx;
+}
+swiper-item image{
+  width: 100%;
+  height: 100%;
+}
+.nineContainer{
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1rpx solid #efefef;
+  border-left: 1rpx solid #efefef;
+}
+.nineContainer view{
+  width: 33.3%;
+  height: 180rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1rpx solid #efefef;
+  border-bottom: 1rpx solid #efefef;
+  box-sizing: border-box;
+}
+.nineContainer image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.nineContainer text{
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+
+.imgContainer{
+  display: flex;
+  padding: 20rpx 10rpx;
+  justify-content: space-around;
+}
+.imgContainer image{
+  width: 45%;
+}
