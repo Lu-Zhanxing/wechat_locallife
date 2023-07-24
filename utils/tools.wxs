@@ -1,0 +1,11 @@
+function splitPhone(str){
+  // str.replace(/^(\d{3})(\d{4})(\d{4})$/,'$1-$2-$3')
+  if(!str || str.length != 11) return str
+  var strArr = str.split('')
+  strArr.splice(3,0,'-')
+  strArr.splice(8,0,'-')
+  return strArr.join('')
+}
+module.exports={
+  splitPhone:splitPhone
+}

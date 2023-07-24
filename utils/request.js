@@ -1,10 +1,10 @@
 import config from './config'
-export default (url, method='get', data={}) =>{
+export default (url, data={}, method='get') =>{
   return new Promise((resolve,reject) => {
     wx.request({
       url: config.host + url,
-      method,
       data,
+      method,
       success:(res)=>{
         resolve(res.data);
         // 这里为啥要用Promise包裹起来？

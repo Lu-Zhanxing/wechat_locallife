@@ -1,16 +1,16 @@
 <view>
   <!-- 轮播图 -->
-  <swiper	indicator-dots circular>
+  <swiper indicator-dots circular>
     <swiper-item wx:for="{{swiperList}}" wx:key="id">
-    <image src="{{item.image}}"></image>
+      <image src="{{item.image}}"></image>
     </swiper-item>
   </swiper>
   <!-- 九宫格 -->
   <view class="nineContainer">
-    <View wx:for="{{nineList}}" wx:key="id">
+    <navigator class="nineItem" wx:for="{{nineList}}" wx:key="id" url="/pages/shoplist/shoplist?id={{item.id}}&name={{item.name}}">
       <image src="{{item.icon}}"></image>
       <text>{{item.name}}</text>
-    </View>
+    </navigator>
   </view>
   <!-- 图片 -->
   <view class="imgContainer">

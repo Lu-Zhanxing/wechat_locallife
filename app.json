@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/home",
     "pages/messsage/message",
-    "pages/contactus/contactus"
+    "pages/contactus/contactus",
+    "pages/shoplist/shoplist"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,22 +12,26 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "首页",
-      "iconPath": "/static/images/tabs/home.png",
-      "selectedIconPath": "/static/images/tabs/home-active.png"
-    },{
-      "pagePath": "pages/messsage/message",
-      "text": "消息",
-      "iconPath": "/static/images/tabs/message.png",
-      "selectedIconPath": "/static/images/tabs/message-active.png"
-    },{
-      "pagePath": "pages/contactus/contactus",
-      "text": "联系我们",
-      "iconPath": "/static/images/tabs/contact.png",
-      "selectedIconPath": "/static/images/tabs/contact-active.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/static/images/tabs/home.png",
+        "selectedIconPath": "/static/images/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/messsage/message",
+        "text": "消息",
+        "iconPath": "/static/images/tabs/message.png",
+        "selectedIconPath": "/static/images/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/contactus/contactus",
+        "text": "联系我们",
+        "iconPath": "/static/images/tabs/contact.png",
+        "selectedIconPath": "/static/images/tabs/contact-active.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

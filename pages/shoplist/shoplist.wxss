@@ -1,0 +1,26 @@
+/* pages/shoplist/shoplist.wxss */
+.category-item{
+  display: flex;
+  margin: 20rpx 10rpx;
+  border: 1px solid #efefef;
+  border-radius: 10rpx;
+  box-shadow: 1rpx 1rpx 15rpx #dedede;
+}
+.item-left image{
+  width: 250rpx;
+  height: 250rpx;
+  /* 消除图片之间的间隙 */
+  display: block;
+}
+.item-right{
+  display: flex;
+  flex-direction: column;
+}
+.item-right text{
+  margin:0rpx 10rpx 10rpx;
+  font-size: 28rpx;
+}
+.item-right text:first-child{
+  font-weight: bold;
+  margin-top: 10rpx;
+}
