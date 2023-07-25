@@ -13,9 +13,9 @@
     "miniprogram": {
       "list": [
         {
-          "name": "商品列表",
-          "pathName": "pages/shoplist/shoplist",
-          "query": "id=1&name=美食",
+          "name": "消息",
+          "pathName": "pages/messsage/message",
+          "query": "",
           "scene": null
         }
       ]

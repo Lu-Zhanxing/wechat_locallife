@@ -1,0 +1,25 @@
+{
+  "name": "wechat_locallife",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lu-Zhanxing/wechat_locallife.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lu-Zhanxing/wechat_locallife/issues"
+  },
+  "homepage": "https://github.com/Lu-Zhanxing/wechat_locallife#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.22",
+    "mobx-miniprogram": "^4.13.2",
+    "mobx-miniprogram-bindings": "^1.2.1"
+  }
+}

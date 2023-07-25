@@ -1,0 +1,9 @@
+<van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item wx:for="{{list}}" wx:key="index" info="{{item.info?item.info:''}}">
+    <image slot="icon" src="{{item.iconPath}}" mode="aspectFit" style="width: 30px; height: 25px;" />
+    <image slot="icon-active" src="{{item.selectedIconPath}}" mode="aspectFit" style="width: 30px; height: 25px;" />
+    {{item.text}}
+  </van-tabbar-item>
+  <!-- <van-tabbar-item icon="search" info="{{sum}}">消息</van-tabbar-item>
+  <van-tabbar-item icon="setting-o">333</van-tabbar-item> -->
+</van-tabbar>

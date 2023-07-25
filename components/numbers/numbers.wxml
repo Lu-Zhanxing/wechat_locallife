@@ -1,0 +1,3 @@
+<view>{{numA}} + {{numB}} = {{sum}}</view>
+<van-button size="small" type="primary" data-step="{{1}}" bindtap="btnHandler2">numB + 1</van-button>
+<van-button size="small" type="danger" data-step="{{-1}}" bindtap="btnHandler2">numB - 1</van-button>

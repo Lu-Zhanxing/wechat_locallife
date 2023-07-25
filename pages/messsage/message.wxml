@@ -1,2 +1,5 @@
-<!--pages/messsage/message.wxml-->
-<text>pages/messsage/message.wxml</text>
+<view>{{numA}} + {{numB}} = {{sum}}</view>
+<van-button size="small" type="primary" data-step="{{1}}" bindtap="btnHandler1">numA + 1</van-button>
+<van-button size="small" type="danger" data-step="{{-1}}" bindtap="btnHandler1">numA - 1</van-button>
+<view>-------自定义组件-------</view>
+<my-number></my-number>
